@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Interceptor;
+using System.Threading;
 
 namespace maplestorybot
 {
@@ -12,9 +14,17 @@ namespace maplestorybot
             Console.WriteLine("STARTING CUSTOM SCRIPT");
             while (true)
             {
-                // START CODE HERE
+                if (ms2.Ms2Focus())
+                {
+                    // START CODE HERE
 
-
+                    // Example code, presses the S key every second, then clicks
+                    ms2.input.SendKey(Keys.S, KeyState.Down);
+                    Thread.Sleep(50);
+                    ms2.input.SendKey(Keys.S, KeyState.Up);
+                    Thread.Sleep(950);
+                    ms2.input.SendLeftClick();
+                }
             }
         }
     }

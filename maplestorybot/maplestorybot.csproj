@@ -60,7 +60,7 @@
       <HintPath>..\packages\EMGU.CV-CUDA.3.4.3.3016\lib\net35\Emgu.CV.World.dll</HintPath>
     </Reference>
     <Reference Include="Interceptor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\Desktop\Interceptor-master\Interceptor\bin\Debug\Interceptor.dll</HintPath>
+      <HintPath>..\Interceptor.dll</HintPath>
     </Reference>
     <Reference Include="IronOcr, Version=4.4.0.21181, Culture=neutral, PublicKeyToken=5f366048dc436899">
       <HintPath>..\packages\IronOcr.4.4.0\lib\net40\IronOcr.dll</HintPath>

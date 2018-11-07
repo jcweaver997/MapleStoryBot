@@ -11,10 +11,10 @@ namespace maplestorybot
 
             MS2 ms2 = new MS2();
             ms2.Start();
-            Blank b = new Blank();
-            b.Start(ms2);
-            //Fishing f = new Fishing(ms2);
-            //f.Start();
+            //Blank b = new Blank();
+            //b.Start(ms2);
+            Fishing f = new Fishing(ms2);
+            f.Start();
             //FireDragon fd = new FireDragon(ms2);
             //fd.Start();
 
